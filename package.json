@@ -1,0 +1,48 @@
+{
+  "name": "study-project-synaptor-v4",
+  "private": true,
+  "description": "No Synapsis, No Learning v4",
+  "version": "0.2.0",
+  "author": "cslavenc",
+  "license": "",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop-playground": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "cross-env jest",
+    "updateSnapshots": "cross-env jest --updateSnapshot",
+    "startdb": "node backend/server.js"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-google-gtag": "^2.8.0",
+    "gatsby-plugin-manifest": "^2.6.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-dropzone": "^11.2.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.3.3",
+    "react-player": "^2.6.0",
+    "react-refresh": "^0.8.3",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.11",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-gatsby": "^0.9.0",
+    "cross-env": "^7.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "prettier": "2.1.2"
+  }
+}

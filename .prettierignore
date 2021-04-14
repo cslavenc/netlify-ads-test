@@ -1,0 +1,13 @@
+# general
+.cache
+package.json
+package-lock.json
+public
+frontend/.cache
+frontend/public
+frontend/node_modules
+backend/.cache
+backend/node_modules
+
+# specialized
+frontend/src/utils/ColorMap.ts
